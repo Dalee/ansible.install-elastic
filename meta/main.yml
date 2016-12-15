@@ -1,0 +1,14 @@
+galaxy_info:
+  author: "Dalee Dev"
+  company: Dalee
+  license: BSD
+  description: "Elastic search"
+  min_ansible_version: 1.4
+  platforms:
+   - name: Ubuntu
+     versions:
+      - trusty
+  categories:
+   - system
+dependencies:
+  - { role: Dalee.install-java8 }
