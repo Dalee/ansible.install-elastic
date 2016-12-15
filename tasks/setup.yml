@@ -1,0 +1,7 @@
+- name: elastic - jvm options
+  template:
+    src: "jvm.options.j2"
+    dest: "/etc/elasticsearch/jvm.options"
+    mode: 0644
+    owner: "elasticsearch"
+    group: "elasticsearch"
